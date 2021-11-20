@@ -1,8 +1,29 @@
-img {
+.img {
     border-radius: 50%;
 }
 
 .arrondie {
-border: 10px solid rgb(2, 40, 99);
+    border-radius: 50%;
+    border: 2px solid white;
 
 }
+
+#banner {
+    background-image:url("C:/Users/mathi/Documents/Portfoliomathieu/images/headerlandscape/dev13.jpg");
+    background-size: 2000px 950px;
+    height: 100%;
+
+}
+
+section#one.wrapper.spotlight.style1 {
+    height: 100%;
+}
+
+div.col.mt-3.ms-2.me-0 {
+    max-width: 720px;
+}
+
+#dev1 {
+    border-radius: 30px;
+}
+
