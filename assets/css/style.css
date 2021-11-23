@@ -27,3 +27,27 @@ div.col.mt-3.ms-2.me-0 {
     border-radius: 30px;
 }
 
+#two {
+    background-color: #093374;
+}
+
+#wrapper {
+    background-color: #2460BD;
+}
+
+#footer {
+    background-color: #2E86C1 ;
+}
+
+#four {
+    background-color: #5DADE2;
+}
+
+#four.wrapper.alt.style1::after {
+    background-color: #2E86C1;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
