@@ -1,6 +1,14 @@
 .img {
-    border-radius: 50%;
+    border-radius: 10%;
+    margin: auto;
 }
+
+.image {
+    border-radius: 10%;
+    margin: auto;
+    height: 500px;
+}
+
 
 .arrondie {
     border-radius: 50%;
@@ -9,7 +17,7 @@
 }
 
 #banner {
-    background-image:url("C:/Users/mathi/Documents/Portfoliomathieu/images/headerlandscape/dev13.jpg");
+    background-image:url("./images/headerlandscape/dev13.jpg");
     background-size: 2000px 950px;
     height: 100%;
 
@@ -48,6 +56,48 @@ div.col.mt-3.ms-2.me-0 {
 }
 
 .box {
+    background-color: #fff;
+    box-shadow: 0 25px 45px #3232321a, 0 15px 25px #0000001a;
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
+    height: 150px;
 }
+.brands {
+transition: transform 0.3s;
+transform: translate3d(0, -1px, 0); 
+}
+
+.brands:hover {
+transform: translate3d(0, -10px, 0);
+}
+
+#spoiler {
+    display: block;
+    color: yellow;
+}
+
+.contentSpoiler {
+    display: none;
+}
+
+p.tel.me-2.mt-3 {
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 20%;
+    transition-property: all;
+    transition-duration: 5s;
+}
+#oldix {
+    border: 1 px solid black;
+}
+a:hover {
+    color: green;
+}
+ .text {
+     text-align: center;
+ }
+
+
+
+

@@ -3,6 +3,8 @@ const app = {
     init: function(){
         //console.log('ok');
         anchor.anchorEvent();
+        tel.telEvent();
+
 
     },
 }
