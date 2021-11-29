@@ -3007,7 +3007,7 @@ input, select, textarea {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: #353849;
 			border-radius: 5px;
-			margin: 1.5em 3em 1.5em 0;
+			margin: 0;
 			width: calc(50% - 1.5em);
 		}
 
@@ -3018,9 +3018,6 @@ input, select, textarea {
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
-				margin-bottom: 1.75em;
-				margin-left: -1.75em;
-				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
 			}
@@ -3034,7 +3031,6 @@ input, select, textarea {
 
 			.features article {
 				margin: 1em 2em 1em 0;
-				width: calc(50% - 1em);
 			}
 
 		}
@@ -3042,9 +3038,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features article {
-				padding: 1.5em 1.5em 0.1em 1.5em ;
-				margin: 0.875em 1.75em 0.875em 0;
-				width: calc(50% - 0.875em - 1px);
+				padding: 0 ;
+				margin:  0;
 			}
 
 				.features article .image {
@@ -3687,7 +3682,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #22328b;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3703,7 +3698,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #252e61;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
@@ -3719,7 +3714,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #222b5c;
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
@@ -3767,7 +3762,7 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #4567e2;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {

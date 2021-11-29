@@ -1,6 +1,7 @@
 .img {
     border-radius: 10%;
     margin: auto;
+    margin-top: 10px;
 }
 
 .image {
@@ -18,8 +19,10 @@
 
 #banner {
     background-image:url("./images/headerlandscape/dev13.jpg");
-    background-size: 2000px 950px;
-    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 
 }
 
@@ -90,13 +93,19 @@ p.tel.me-2.mt-3 {
 }
 #oldix {
     border: 1 px solid black;
+    max-width: 50%;
 }
 a:hover {
     color: green;
 }
  .text {
      text-align: center;
- }
+}
+
+#competences {
+    display: inline-block;
+}
+
 
 
 
