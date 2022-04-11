@@ -1,6 +1,5 @@
 .img {
     border-radius: 10%;
-    margin: auto;
     margin-top: 10px;
 }
 
@@ -51,7 +50,7 @@ div.col.mt-3.ms-2.me-0 {
 }
 
 #four {
-    background-color: #5DADE2;
+    background-color: #1b7bbb;
 }
 
 #four.wrapper.alt.style1::after {
@@ -106,7 +105,14 @@ a:hover {
     display: inline-block;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
 
+
+#text {
+    text-align: justify;
+}
 
 
