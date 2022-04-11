@@ -2990,6 +2990,86 @@ input, select, textarea {
 		}
 
 /* Features */
+	.logo-html {
+		width: 40%;
+	}
+	.logo-css {
+		width: 80%;
+	}
+
+
+@media (min-width: 800px) and (max-width: 1000px){
+    .d-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+	.logo-sass {
+		width: 40%;
+	}
+	.logo-js {
+		width: 40%;
+	}
+	.logo-react {
+		width: 80%;
+	}
+	.logo-lumen {
+		width: 80%;
+	}
+	.env {
+		display: flex;
+		flex-direction: column;
+		margin:0 auto;
+	}
+	.features {
+		padding-bottom: 140px;
+	}
+
+
+
+
+}
+
+@media (max-width: 800px) {
+    .container .d-flex {
+      display: flex;
+      flex-direction: column;
+	  justify-content: center;
+    }
+	.logo-react {
+		width: 120%;
+	}
+	.logo-bootstrap {
+		width: 200%;
+	}
+	.logo-symfony {
+		width: 150%;
+	}
+	.logo-node {
+		width: 130%;
+	}
+	.logo-php {
+		width: 200%;
+	}
+	.logo-lumen {
+		width: 120%;
+	}
+	.logo-mysql {
+		width: 120%;
+	}
+	.features {
+		padding-bottom: 100px;
+	}
+	.card {
+		margin:0 120px;
+
+	}
+
+
+
+
+
+}
+
 
 	.features {
 		display: -moz-flex;
